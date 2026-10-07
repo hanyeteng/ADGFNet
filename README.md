@@ -134,19 +134,6 @@ A timestamped summary is saved automatically to:
 checkpoints/test_<timestamp>.txt
 ```
 
-<details>
-<summary><b>Custom evaluation options</b></summary>
-
-Use the following options to customize the dataset root, output directory, threshold, or batch size:
-
-```bash
-python test_all.py \
-  --dataset_dir ./datasets \
-  --save_log ./checkpoints/ \
-  --threshold 0.5 \
-  --batch_size 1
-```
-
 </details>
 
 #### Evaluate a single model
