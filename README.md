@@ -12,12 +12,10 @@
 
 **A lightweight, physics-prior-guided framework for accurate infrared small target detection.**
 
-[Overview](#-overview) · [Architecture](#-architecture) · [Quick Start](#-quick-start) · [Results](#-quantitative-results) · [Citation](#-citation)
+[Overview](#-overview) · [Architecture](#%EF%B8%8F-architecture) · [Quick Start](#-quick-start) · [Results](#-quantitative-results) · [Citation](#-citation)
 
 </div>
 
-> [!IMPORTANT]
-> The official implementation is now available. Datasets and pretrained weights are hosted separately to keep this repository lightweight.
 
 ## 🔍 Overview
 
@@ -196,10 +194,15 @@ The comparison-method implementations were adapted from the excellent [BasicIRST
 The formal citation will be added once the paper is accepted and publication metadata becomes available.
 
 ```bibtex
-@article{han2026adgfnet,
-  title   = {Anomaly-Driven Gated Fusion Network for Infrared Small Target Detection},
-  author  = {Han, Yeteng and Li, Jie and Liu, Zheng and Huang, Xiayang and Jia, Chaoxian and Cui, Wennan and Zhang, Tao},
-  year    = {2026}
+@article{han2026anomaly,
+  title={Anomaly-Driven Gated Fusion Network for Infrared Small Target Detection},
+  author={Han, Yeteng and Li, Jie and Liu, Zheng and Huang, Xiayang and Jia, Chaoxian and Cui, Wennan and Zhang, Tao},
+  journal={Remote Sensing},
+  volume={18},
+  number={18},
+  pages={3247},
+  year={2026},
+  publisher={MDPI}
 }
 ```
 
